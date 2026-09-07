@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #0b0f17;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    background: #111827;
+    border-bottom: 1px solid #252f3f;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar-brand span,
+footer span {
+    color: #ff4655;
+}
+
+.nav-link {
+    color: #a7b0bf !important;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    color: #ff4655 !important;
+}
+.hero {
+    padding: 90px 0;
+    background: #0f141e;
+}
+
+.small-title {
+    color: #ff4655;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: clamp(2.2rem, 6vw, 4.5rem);
+    font-weight: bold;
+}
+
+.hero h1 span {
+    color: #ff4655;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin: 20px auto;
+    color: #9ca3af;
+    font-size: clamp(1rem, 2vw, 1.15rem);
+}
+.btn-valo {
+    background: #ff4655;
+    color: white;
+    border: none;
+    padding: 11px 25px;
+    font-weight: bold;
+}
+
+.btn-valo:hover {
+    background: #d93645;
+    color: white;
+}
+.section-title {
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+}
+.akun-card {
+    background: #111827;
+    border: 1px solid #252f3f;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.25s;
+}
+
+.akun-card:hover {
+    transform: translateY(-5px);
+    border-color: #ff4655;
+}
+
+.akun-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.rank {
+    display: inline-block;
+    color: #ff4655;
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.akun-title {
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.harga {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.btn-beli {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ff4655;
+    color: #ff4655;
+    font-weight: bold;
+}
+
+.btn-beli:hover {
+    background: #ff4655;
+    color: white;
+}
+.about-box {
+    background: #111827;
+    border: 1px solid #252f3f;
+    border-radius: 10px;
+    padding: 30px;
+}
+footer {
+    margin-top: 50px;
+    background: #080b11;
+    border-top: 1px solid #252f3f;
+}
+@media (min-width: 768px) {
+
+    .akun-img {
+        height: 210px;
+    }
+
+}
+@media (min-width: 992px) {
+
+    .akun-img {
+        height: 200px;
+    }
+
+}
+@media (min-width: 1200px) {
+
+    .akun-img {
+        height: 190px;
+    }
+
+}
